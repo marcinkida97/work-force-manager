@@ -1,11 +1,12 @@
-import { Image } from 'react-bootstrap';
-import './App.css';
+import React from 'react';
+import './App.css'
+import LoginPage from "./pages/LoginPage";
 
 const App = () => {
   return (
-    <div className="App">
-      <Image src="../public/logo.png" />
-    </div>
+      <div className={'wrapper bg-secondary d-flex flex-column align-items-center justify-content-center'}>
+        <LoginPage />
+      </div>
   );
 }
 
